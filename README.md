@@ -130,26 +130,13 @@ streamlit run app.py
 
 ---
 
-# 🚀 **5. Deployment Instructions (Streamlit Cloud)**
+##  **Run the app**
+OPen app.py in terminal and run this command "streamlit run app.py"
 
-1. Push project to GitHub
 
-2. Visit [https://share.streamlit.io](https://share.streamlit.io)
+🎉 Your app will open automatically in your browser.
 
-3. Sign in with GitHub
-
-4. Select your ScoreSight repository
-
-5. Choose:
-
-   * Branch: **main**
-   * File: **app.py**
-
-6. Click **Deploy**
-
-🎉 Your app will be hosted on a public URL automatically.
-
----
+Note: Deployment (Streamlit Cloud/Render) is optional. Local execution works perfectly.
 
 # 📦 **requirements.txt**
 
