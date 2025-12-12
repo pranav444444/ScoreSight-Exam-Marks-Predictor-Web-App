@@ -1,8 +1,17 @@
+# Allow streamlit 1.25 but don't force pillow/matplotlib incompatible pins
 streamlit==1.25.0
-numpy==1.26.0
-pandas==2.1.0
-scikit-learn==1.3.0
-joblib==1.3.2
-plotly==5.16.0
+
+# Use a numpy build that is compatible with Python 3.13 on Streamlit Cloud
+numpy==1.26.4
+
+# Allow pandas & sklearn to be resolved to compatible builds
+pandas>=2.1.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+plotly>=5.16.0
+
+# plotting libs (don't pin pillow here; request a newer Pillow that builds)
 matplotlib
 seaborn
+pillow>=9.6.0
