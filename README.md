@@ -16,6 +16,8 @@ The project demonstrates a complete end-to-end ML workflow including:
 This project was created as part of an academic learning initiative in machine learning and predictive modeling.
 
 ---
+# 🖼️ App Screenshot
+<img width="1919" height="889" alt="image" src="https://github.com/user-attachments/assets/8e5e098d-c341-4bf5-b740-3eab59cb5d9e" />
 
 # 📂 **Project Structure**
 
